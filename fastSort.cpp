@@ -9,8 +9,8 @@ void fastSort(T arr[], int start, int end, const Compare &compare)
 {
     if(start >= end)
         return;
-    T val = arr[start];
     int left = start, right = end;
+    T val = arr[left];
     while(left < right)
     {
         while(left < right)
